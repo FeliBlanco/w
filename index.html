@@ -89,7 +89,7 @@
 			var content = "";
 			$.get( "https://api.github.com/users/FeliBlanco/repos", function( data ) {
 				var descrip = "";
-			  	for(var i = 0; i < data.length; i++) 
+			  	for(var i = data.length - 1; i > 0; i--) 
 			  	{	
 			  		if(data[i].description == null)
 			  		{
