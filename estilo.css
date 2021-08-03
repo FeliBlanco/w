@@ -125,6 +125,15 @@ svg {
 
 .selecc {
 	cursor: pointer;
+	transition: transform 0.2s;
+}
+
+.selecc:hover {
+	transform : scale(1.1);
+	-moz-transform : scale(1.1); /* Firefox */
+	-webkit-transform : scale(1.1); /* Chrome - Safari */
+	-o-transform : scale(1.1); /* Opera */
+	-ms-transform : scale(1.1); /* IE9 */
 }
 
 #projectos img {
