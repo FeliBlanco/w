@@ -76,8 +76,9 @@ a:hover {
 }
 
 .contenido-der_secc_items {
-
-  align-items: stretch;
+	display:flex;
+	align-items: stretch;
+	flex-wrap: wrap;
 }
 
 .contenido-der_item {
