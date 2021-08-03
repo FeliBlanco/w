@@ -1,0 +1,155 @@
+* {
+	padding:0;
+	margin:0;
+}
+
+.contenido {
+	width: 100%;
+}
+
+.division {
+	display:flex;
+	width: 100%;
+}
+
+.contenido-izq {
+	width: 25%;
+	background:#31445e;
+	padding:10px;
+	min-height: 100vh;
+	box-sizing: border-box;
+	color:#fff;
+	font-family: 'Rubik', sans-serif;
+	font-size:20px;
+	align-items: center;
+	text-align: center;
+}
+
+.contenido-der {
+	width:75%;
+	background:#3c516e;
+	padding:20px;
+	box-sizing: border-box;
+}
+
+a {
+	color:#fff;
+	text-decoration: none;
+	font-family: 'Rubik', sans-serif;
+	line-height: 1.5;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.contenido-izq_item {
+	padding:10px;
+	font-size:18px;
+	text-align: left;
+}
+
+
+#imgcont {
+	width: 100%;
+	text-align: center;
+}
+#imgcont img{
+	width: 35%;
+	border-radius: 90px;
+	border: 3px solid #fff;
+}
+
+.contenido-der_title {
+	color: #fff;
+	font-family: 'Rubik', sans-serif;
+}
+
+.contenido-der_desc {
+	color:#fff;
+	font-family: 'Rubik', sans-serif;
+}
+
+.contenido-der_secc {
+	width: 100%;
+	margin-bottom:80px;
+}
+
+.contenido-der_secc_items {
+
+  align-items: stretch;
+}
+
+.contenido-der_item {
+	width:30%;
+	/*height: 140px;*/
+	background:#fff;
+	padding:15px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin:10px;
+	display:inline-flex;
+	color:#000;
+	align-items: stretch;
+	overflow: hidden;
+}
+
+.contenido-der_item a{
+	color:#3785d4;
+}
+
+svg {
+	overflow: hidden;
+	margin-right: 4px !important;
+	vertical-align: middle !important;
+}
+
+.contenido-der_item_desc {
+	color:#586069;
+}
+
+.counters {
+	color:#000 !important;
+	margin-right:20px;
+	cursor: pointer;
+	font-size: 14px;
+	vertical-align: text-top;
+}
+
+.contenido-der_item_leng {
+	text-align: center;
+	margin:15px;
+}
+
+
+.selecc {
+	cursor: pointer;
+}
+@media screen and (max-width: 720px) {
+	.division {
+		display:block;
+	}
+
+	.contenido-izq {
+		width: 100%;
+		min-height: 450px;
+	}
+
+	.contenido-der {
+		width: 100%;
+	}
+
+	.contenido-der_item {
+		width: 45%;
+	}
+}
+
+@media screen and (max-width: 520px) { 
+	.contenido-der_item {
+		width: 90%;
+	}
+
+	.contenido-izq {
+		height: 40px;
+	}
+}
